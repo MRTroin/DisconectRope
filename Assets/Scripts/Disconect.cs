@@ -5,6 +5,7 @@ using UnityEngine;
 public class Disconect : MonoBehaviour
 {
     private HingeJoint2D _Joint;
+
      private void Start()
     {
         _Joint= GetComponent<HingeJoint2D>();
