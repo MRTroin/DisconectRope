@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Disconect : MonoBehaviour
 {
-   [SerializeField] private HingeJoint2D _Joint;
+     private HingeJoint2D _Joint;
      private void Start()
     {
         _Joint= GetComponent<HingeJoint2D>();
